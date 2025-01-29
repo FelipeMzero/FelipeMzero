@@ -1,52 +1,16 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=FelipeMzero.FelipeMzero" />
-
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Olá!+Sou+o+Felipe+Monteiro+👺🖖;" />
-</h1>
-
-<h3 align="center">Aluno na UFOPA 💻</h3>
-
-<br/>
-
-<div align="center">
- 
- 🔭 Atualmente estou trabalhando em **meu conhecimento em programação**
- 
- 🌱 Atualmente estou aprendendo **Python, Java, Android Studio e Desenvolvimento Web**
-
- 💬 Pergunte-me sobre **Python, Java, Android Studio, HTML, CSS, JavaScript... ou qualquer coisa [aqui](https://github.com/FelipeMzero/FelipeMzero/issues)**
-
- 📫 Como entrar em contato comigo **thevirosigma@gmail.com**
- 
- </div>
- 
-<div align="center"> 
-  <a href="https://www.linkedin.com/in/felipe-monteiro-pican%C3%A7o-58a028170/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:thevirosigma@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/FelipeMzero">
-     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> <!-- Você também pode usar outras opções de ícone, como todoist, sqlite, safari, google-chrome -->
-  </a>
-</div>
-
- <hr/>
- 
-<h2 align="center">⚒️ Linguagens-Frameworks-Ferramentas ⚒️</h2>
-<div align="center">
-    <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" width="50" alt="Java">
-    <img src="https://img.icons8.com/color/48/000000/python.png" width="50" alt="Python">
-    <img src="https://img.icons8.com/color/48/000000/css3.png" width="50" alt="CSS3">
-    <img src="https://img.icons8.com/color/48/000000/html-5.png" width="50" alt="HTML5">
-    <img src="https://img.icons8.com/color/48/000000/javascript.png" width="50" alt="JavaScript">
-    <img src="https://img.icons8.com/color/48/000000/kotlin.png" width="50" alt="Kotlin">
-    <img src="https://img.icons8.com/color/48/000000/php.png" width="50" alt="PHP">
-</div>
+# 💫 Sobre Mim:
+Atualmente, atuo como técnico em informática no Hospital Menino Jesus, localizado em Oriximiná, Pará. Minhas habilidades abrangem a área de telecomunicações, onde desempenho funções como técnico multifuncional, além de atuar como desenvolvedor back-end, com especialização em automações. Sou um entusiasta de tecnologias relacionadas ao Android Open Source Project (AOSP), sempre buscando me atualizar e me aprofundar nesse campo.
 
 
-<br/>
+## 🌐 Redes Sociais:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100081518550400) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/felipemzero) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-monteiro-pican%C3%A7o-58a028170/) 
+
+# 💻 Tecnologias:
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
+# 📊 Estatísticas do GitHub:
+![](https://github-readme-stats.vercel.app/api?username=FelipeMzero&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=FelipeMzero&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 <hr/>
 <div align="center">
   <h2>🐍 Minhas Contribuições 🐍</h2>
@@ -54,23 +18,14 @@
   <img alt="snake eating my contributions" src="https://github.com/FelipeMzero/FelipeMzero/blob/output/github-contribution-grid-snake.svg" />
 </div>
 
+## 🏆 Troféus do GitHub
+![](https://github-profile-trophy.vercel.app/?username=FelipeMzero&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-<hr/>
+### ✍️ Citação aleatória de Dev
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-<h2 align="center">⚡ Estatísticas ⚡</h2>
-<br>
-<div align=center>
-  <img width=390 src="https://streak-stats.demolab.com/?user=FelipeMzero&count_private=true&theme=react&border_radius=10" alt="Estatísticas de sequência" />
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=FelipeMzero&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="Estatísticas do README" />
-  <br/>
-  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Principais linguagens" />
-</div>
+### 🔝 Repositório com maior contribuição
+![](https://github-contributor-stats.vercel.app/api?username=FelipeMzero&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-<br/><br/>
-<hr/>
-
-<h3 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Obrigado+pela+visita!+✌️;Envie-me+uma+mensagem+no+LinkedIn!;Estou+sempre+disposto+a+colaborar+:)">
-</h3>
-
-<br/>
+---
+[![](https://visitcount.itsvg.in/api?id=FelipeMzero&icon=0&color=0)](https://visitcount.itsvg.in)
