@@ -135,33 +135,48 @@ Sou um profissional multifuncional apaixonado por tecnologia. Minha experiência
 </table>
 
 ---
-
 ### 📊 Estatísticas e Atividade
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FelipeMzero&bg_color=0d1117&color=20C20E&line=20C20E&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+  <img 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=FelipeMzero&bg_color=0d1117&color=20C20E&line=20C20E&point=ffffff&area=true&hide_border=true" 
+    width="100%" 
+    alt="Activity Graph"
+  />
 </div>
 
 <br>
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FelipeMzero&theme=dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&custom_title=Estatísticas%20Gerais" />
-      </td>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8&custom_title=Linguagens%20Top" />
-      </td>
-    </tr>
-  </table>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FelipeMzero&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly" alt="GitHub Streak" />
+  <img 
+    height="180em" 
+    src="https://github-readme-stats.vercel.app/api?username=FelipeMzero&theme=dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&custom_title=Estatísticas%20Gerais"
+  />
+  <img 
+    height="180em" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&theme=dark&hide_border=true&layout=compact&langs_count=8&custom_title=Linguagens%20Top"
+  />
 </div>
 
-### 🏆 Conquistas
+<br>
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=FelipeMzero&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" />
+  <img 
+    src="https://github-readme-streak-stats.herokuapp.com/?user=FelipeMzero&theme=dark&hide_border=true&mode=weekly" 
+    alt="GitHub Streak"
+  />
 </div>
+
+---
+
+### 🏆 Conquistas
+
+<div align="center">
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=FelipeMzero&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7"
+  />
+</div>
+
 
 ---
 
