@@ -62,11 +62,11 @@ Profissional de TI multifuncional, transitando entre a infraestrutura crítica d
 # 📊 Estatísticas do GitHub
 
 <div align="center">
-  ![](https://github-readme-stats.vercel.app/api?username=FelipeMzero&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+  <img src="https://github-readme-stats.vercel.app/api?username=FelipeMzero&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
   <br/>
-  ![](https://github-readme-streak-stats.herokuapp.com/?user=FelipeMzero&theme=dark&hide_border=false)
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FelipeMzero&theme=dark&hide_border=false" alt="GitHub Streak" />
   <br/>
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Langs" />
 </div>
 
 <hr/>
