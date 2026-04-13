@@ -3,7 +3,7 @@ const axios = require('axios');
 const yaml = require('js-yaml');
 
 const README_PATH = 'README.md';
-const STATS_URL = 'https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats';
+const STATS_URL = 'https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&hide=HTML&langs_count=8&layout=compact&theme=dark&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats';
 
 axios.get(STATS_URL)
   .then(response => {
