@@ -1,10 +1,10 @@
-<!-- ===== THEME-AWARE HERO BANNER ===== -->
-<!-- GitHub automaticamente mostra dark.svg no modo escuro e light.svg no modo claro (Fonte: Outfit) -->
+<!-- ===== THEME-AWARE HERO BANNER (CYBERPUNK HUD) ===== -->
+<!-- GitHub mostra automaticamente dark.svg no modo escuro e light.svg no modo claro -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg">
-  <img alt="Felipe Mzero" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg?v=2">
+  <img alt="Felipe Mzero Cyberpunk Banner" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg?v=2">
 </picture>
 
 <br/><br/>
@@ -41,9 +41,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake.svg?v=2" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake.svg?v=2" />
 </picture>
 
 </div>
@@ -55,9 +55,9 @@
 <!-- ===== ABOUT ME CARD (OUTFIT FONT & THEME-AWARE) ===== -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg">
-    <img alt="Sobre Mim - Felipe Mzero" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg?v=2">
+    <img alt="Sobre Mim - Felipe Mzero" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg?v=2" width="100%">
   </picture>
 </div>
 
