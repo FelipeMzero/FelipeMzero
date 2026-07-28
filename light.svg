@@ -1,55 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 280" width="100%" height="100%">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;display=swap');
-      .title-text-light { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 34px; fill: url(#accent-grad-light); }
-      .sub-text-light { font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 17px; fill: #0F172A; }
-      .info-text-light { font-family: 'Outfit', sans-serif; font-weight: 400; font-size: 14px; fill: #475569; }
-      .bar-text-light { font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 600; fill: #475569; }
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Outfit:wght@600;700;800&amp;display=swap');
+      .mc-title-light { font-family: 'Press Start 2P', monospace; font-size: 24px; fill: #2E5C00; text-shadow: 2px 2px 0px #A2D157; }
+      .mc-sub-light { font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 18px; fill: #0077B5; }
+      .mc-text-light { font-family: 'Outfit', sans-serif; font-size: 14px; fill: #2C3E50; }
+      .mc-gold-light { fill: #D97706; font-weight: 700; }
+      .mc-green-light { fill: #2E7D32; font-weight: 700; }
     </style>
-    <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F8FAFC"/>
-    </linearGradient>
-    <linearGradient id="accent-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0891B2"/>
-      <stop offset="50%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#059669"/>
+    <linearGradient id="xp-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
     </linearGradient>
   </defs>
-  
-  <!-- Background Card -->
-  <rect width="1180" height="280" rx="12" fill="url(#bg-light)" stroke="#E2E8F0" stroke-width="2"/>
-  
-  <!-- Terminal Window Bar -->
-  <rect width="1180" height="40" rx="12" fill="#F1F5F9"/>
-  <rect y="28" width="1180" height="12" fill="#F1F5F9"/>
-  
-  <!-- Window Controls -->
-  <circle cx="25" cy="20" r="6" fill="#EF4444"/>
-  <circle cx="45" cy="20" r="6" fill="#F59E0B"/>
-  <circle cx="65" cy="20" r="6" fill="#10B981"/>
-  
-  <!-- Title -->
-  <text x="590" y="24" text-anchor="middle" class="bar-text-light">felipe@dev:~ (profile.sh --live)</text>
-  
-  <!-- LIVE badge -->
-  <rect x="1080" y="10" width="70" height="20" rx="10" fill="#EF4444" opacity="0.15"/>
-  <circle cx="1095" cy="20" r="4" fill="#EF4444"/>
-  <text x="1122" y="24" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#DC2626">LIVE</text>
-  
-  <!-- Main Content Area -->
-  <g transform="translate(60, 70)">
-    <rect width="140" height="140" rx="16" fill="#F1F5F9" stroke="url(#accent-grad-light)" stroke-width="2"/>
-    <text x="70" y="85" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="44" font-weight="800" fill="#0891B2">&lt;/&gt;</text>
+
+  <!-- Minecraft Day GUI Container -->
+  <rect width="1180" height="280" rx="6" fill="#7EC0EE" stroke="#5B8731" stroke-width="4"/>
+  <rect x="8" y="8" width="1164" height="264" rx="4" fill="#FFFFFF" stroke="#C6C6C6" stroke-width="3"/>
+
+  <!-- Top GUI Header Bar -->
+  <rect x="14" y="14" width="1152" height="36" fill="#E0E0E0"/>
+  <text x="30" y="38" font-family="'Press Start 2P', monospace" font-size="12" fill="#D97706">Minecraft v1.20.4 - Felipe's World</text>
+  <text x="1130" y="38" text-anchor="end" font-family="'Press Start 2P', monospace" font-size="12" fill="#2E7D32">ONLINE</text>
+
+  <!-- Player Avatar Box (Pixelated Crafting Slot) -->
+  <g transform="translate(40, 70)">
+    <rect width="140" height="140" fill="#C6C6C6" stroke="#8B8B8B" stroke-width="4"/>
+    <rect x="6" y="6" width="128" height="128" fill="#F5F5F5"/>
+    <text x="70" y="85" text-anchor="middle" font-family="'Press Start 2P', monospace" font-size="44" fill="#0077B5">⛏️</text>
   </g>
-  
-  <g transform="translate(240, 90)">
-    <text x="0" y="20" class="title-text-light">FELIPE MZERO</text>
-    <text x="0" y="48" class="sub-text-light">Técnico em Informática | Backend &amp; SysAdmin</text>
+
+  <!-- Main Info Section -->
+  <g transform="translate(210, 85)">
+    <!-- Player Name -->
+    <text x="0" y="20" class="mc-title-light">FELIPE MZERO</text>
     
-    <text x="0" y="85" class="info-text-light">SYSTEM.INFO ...... Active Directory • Windows Server • Python • Linux • AOSP</text>
-    <text x="0" y="110" class="info-text-light">LOCATION ......... Hospital Menino Jesus — Oriximiná, PA</text>
-    <text x="0" y="135" class="info-text-light" fill="#059669">STATUS ........... [Building + Learning + Automating]</text>
+    <!-- Player Title -->
+    <text x="0" y="50" class="mc-sub-light">[ Level 99 ] Técnico em Informática | Backend &amp; SysAdmin</text>
+    
+    <!-- XP Bar -->
+    <g transform="translate(0, 65)">
+      <rect width="650" height="14" rx="7" fill="#8B8B8B" stroke="#555555" stroke-width="2"/>
+      <rect x="2" y="2" width="610" height="10" rx="5" fill="url(#xp-grad-light)"/>
+      <text x="325" y="10" text-anchor="middle" font-family="'Press Start 2P', monospace" font-size="9" fill="#FFFFFF">XP: 99999 / 99999</text>
+    </g>
+
+    <!-- Character Stats Readout -->
+    <text x="0" y="110" class="mc-text-light">CLASS ...... <tspan class="mc-gold-light">SysAdmin &amp; Automation Developer</tspan></text>
+    <text x="0" y="132" class="mc-text-light">EQUIPMENT .. Active Directory • Windows Server • Python • Linux • AOSP</text>
+    <text x="0" y="154" class="mc-text-light">BIOME ...... <tspan class="mc-green-light">Hospital Menino Jesus — Oriximiná, PA</tspan></text>
   </g>
 </svg>
