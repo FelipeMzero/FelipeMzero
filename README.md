@@ -1,3 +1,12 @@
+<!-- BANNER ANIMADO EM SVG (Alterna tema claro/escuro automaticamente) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg">
+  <img alt="Felipe Mzero Banner" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg" width="100%">
+</picture>
+
+<br/><br/>
+
 <div align="center">
   <img src="https://media.giphy.com/media/hqgD6bocRHhEjdwt0x/giphy.gif" width="100px"/>
   <br/>
@@ -11,20 +20,26 @@
   <i>Especialista em unir Infraestrutura, Automação e Desenvolvimento.</i>
 </div>
 
-<p align="center">
-  <a href="https://www.facebook.com/profile.php?id=100081518550400">
-    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white&style=for-the-badge" alt="Facebook"/>
-  </a>
-  <a href="https://instagram.com/felipemzero">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge" alt="Instagram"/>
-  </a>
+<br/>
+
+<!-- BADGES SOCIAIS -->
+<div align="center">
   <a href="https://www.linkedin.com/in/felipe-monteiro-pican%C3%A7o-58a028170/">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  &nbsp;&nbsp;
+  <a href="https://instagram.com/felipemzero">
+    <img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA&labelColor=0A101F" alt="Instagram"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.facebook.com/profile.php?id=100081518550400">
+    <img src="https://img.shields.io/badge/Facebook-0A101F?style=for-the-badge&logo=facebook&logoColor=1877F2&labelColor=0A101F" alt="Facebook"/>
+  </a>
+  &nbsp;&nbsp;
   <a href="mailto:felipe@exemplo.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email"/>
   </a>
-</p>
+</div>
 
 ---
 
@@ -43,16 +58,16 @@ Profissional de TI multifuncional, transitando entre a infraestrutura crítica d
 
 <div align="center">
 
-**🌐 Frontend**
+**🌐 Frontend**  
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react" />
 
-**⚙️ Backend**
+**⚙️ Backend**  
 <img src="https://skillicons.dev/icons?i=python,java,kotlin,php,nodejs,flask" />
 
-**🛠️ Infra & Tools**
+**🛠️ Infra & Tools**  
 <img src="https://skillicons.dev/icons?i=bash,linux,windows,mysql,docker,git,arduino" />
 
-**🎨 Design**
+**🎨 Design**  
 <img src="https://skillicons.dev/icons?i=ps,ai,pr" />
 
 </div>
@@ -62,20 +77,28 @@ Profissional de TI multifuncional, transitando entre a infraestrutura crítica d
 # 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FelipeMzero&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FelipeMzero&theme=dark&hide_border=false" alt="GitHub Streak" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Langs" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=FelipeMzero&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="streak" />
+  <br/><br/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=FelipeMzero&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMzero&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="top langs" />
 </div>
 
-<hr/>
+<br/>
 
+<!-- ANIMAÇÃO DA COBRINHA (CONTRIBUTION SNAKE) -->
 <div align="center">
   <h2>🐍 Minhas Contribuições 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://github.com/FelipeMzero/FelipeMzero/blob/output/github-contribution-grid-snake.svg" />
+  <br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-snake.svg" />
+    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-snake.svg" />
+  </picture>
 </div>
 
-### ✍️ Citação aleatória de Dev
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<br/><hr/>
+
+<div align="center">
+  <h3>✍️ Citação aleatória de Dev</h3>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
+</div>
