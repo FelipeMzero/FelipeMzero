@@ -1,56 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 280" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 300" width="100%" height="100%">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Outfit:wght@700;800;900&amp;display=swap');
-      .cyber-title-light { font-family: 'Outfit', sans-serif; font-weight: 900; font-size: 38px; fill: #0088CC; }
-      .cyber-sub-light { font-family: 'Share Tech Mono', monospace; font-size: 16px; font-weight: 700; fill: #D80056; letter-spacing: 1.5px; }
-      .cyber-info-light { font-family: 'Share Tech Mono', monospace; font-size: 13.5px; fill: #475569; }
-      .cyber-cyan-light { fill: #0088CC; font-weight: bold; }
-      .cyber-yellow-light { fill: #D97706; font-weight: bold; }
-      .cyber-pink-light { fill: #D80056; font-weight: bold; }
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&amp;family=Outfit:wght@700;800;900&amp;display=swap');
+      .title-name-light { font-family: 'Outfit', sans-serif; font-weight: 900; font-size: 36px; fill: #0891B2; letter-spacing: 0.5px; }
+      .sub-role-light { font-family: 'Fira Code', monospace; font-size: 15px; font-weight: 600; fill: #7C3AED; }
+      .readout-label-light { font-family: 'Fira Code', monospace; font-size: 13.5px; font-weight: 600; fill: #475569; }
+      .readout-val-light { font-family: 'Fira Code', monospace; font-size: 13.5px; fill: #0F172A; }
+      .accent-text-light { fill: #059669; font-weight: 600; }
+      .pill-text-light { font-family: 'Fira Code', monospace; font-size: 12px; font-weight: 700; fill: #FFFFFF; }
     </style>
     
-    <linearGradient id="cyber-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg-master-light" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="50%" stop-color="#F8FAFC"/>
-      <stop offset="100%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
     </linearGradient>
 
-    <pattern id="grid-light" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#E2E8F0" stroke-width="0.8" opacity="0.8"/>
-    </pattern>
+    <linearGradient id="pill-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
   </defs>
 
-  <!-- Background Card -->
-  <rect width="1180" height="280" rx="10" fill="url(#cyber-bg-light)" stroke="#0088CC" stroke-width="2"/>
-  <rect width="1180" height="280" fill="url(#grid-light)"/>
+  <!-- Background Terminal Box -->
+  <rect width="1180" height="300" rx="12" fill="url(#bg-master-light)" stroke="#E2E8F0" stroke-width="2"/>
 
-  <!-- Cyberpunk Top HUD Bar -->
-  <path d="M 0 0 L 1180 0 L 1180 36 L 1150 36 L 1140 46 L 40 46 L 30 36 L 0 36 Z" fill="#E2E8F0" stroke="#0088CC" stroke-width="1.5"/>
-  <text x="50" y="26" font-family="'Share Tech Mono', monospace" font-size="13" fill="#0088CC">// CYBER_NET v2.077 :: FELIPE.EXE</text>
-  <text x="1130" y="26" text-anchor="end" font-family="'Share Tech Mono', monospace" font-size="13" fill="#D80056">[ SYSTEM_ACTIVE ]</text>
-  
-  <!-- Cyber HUD Decorative Lines -->
-  <line x1="0" y1="270" x2="1180" y2="270" stroke="#D80056" stroke-width="2"/>
-  <rect x="1100" y="265" width="40" height="10" fill="#D97706"/>
+  <!-- Terminal Title Bar -->
+  <rect width="1180" height="42" rx="12" fill="#F1F5F9"/>
+  <rect y="30" width="1180" height="12" fill="#F1F5F9"/>
 
-  <!-- Left Column - Cyber Avatar HUD Frame -->
-  <g transform="translate(60, 75)">
-    <polygon points="20,0 120,0 140,20 140,120 120,140 20,140 0,120 0,20" fill="#F1F5F9" stroke="#0088CC" stroke-width="2"/>
-    <polygon points="25,5 115,5 135,25 135,115 115,135 25,135 5,115 5,25" fill="#FFFFFF" stroke="#D80056" stroke-width="1" opacity="0.7"/>
-    <text x="70" y="82" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="42" font-weight="900" fill="#0088CC">&lt;/&gt;</text>
-    <text x="70" y="112" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#D97706">CYBER_ID#99</text>
+  <!-- Window Control Buttons -->
+  <circle cx="25" cy="21" r="6" fill="#EF4444"/>
+  <circle cx="45" cy="21" r="6" fill="#F59E0B"/>
+  <circle cx="65" cy="21" r="6" fill="#10B981"/>
+
+  <!-- Terminal Title -->
+  <text x="590" y="25" text-anchor="middle" font-family="'Fira Code', monospace" font-size="13" font-weight="600" fill="#475569">profile.sh --live</text>
+
+  <!-- Pulsing Red LIVE Badge -->
+  <g transform="translate(1010, 11)">
+    <rect width="60" height="20" rx="10" fill="#EF4444" opacity="0.15"/>
+    <circle cx="14" cy="10" r="4" fill="#EF4444"/>
+    <text x="37" y="14" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#DC2626">LIVE</text>
   </g>
 
-  <!-- Right Column - Information Readout -->
-  <g transform="translate(235, 92)">
-    <text x="0" y="22" class="cyber-title-light">FELIPE MZERO</text>
-    <text x="0" y="50" class="cyber-sub-light">&gt; SYSADMIN // BACKEND DEVELOPER // AOSP ENTHUSIAST</text>
-    
-    <g transform="translate(0, 78)">
-      <text x="0" y="0" class="cyber-info-light">[<tspan class="cyber-cyan-light">+</tspan>] CORE_MODULES ... <tspan class="cyber-yellow-light">Active Directory</tspan> // <tspan class="cyber-yellow-light">Windows Server</tspan> // Python // Linux // AOSP</text>
-      <text x="0" y="24" class="cyber-info-light">[<tspan class="cyber-cyan-light">+</tspan>] LOCATION ....... HOSPITAL MENINO JESUS // ORIXIMINA, PA</text>
-      <text x="0" y="48" class="cyber-info-light">[<tspan class="cyber-cyan-light">+</tspan>] STATUS ......... <tspan class="cyber-pink-light">[ ONLINE // AUTOMATING INFRASTRUCTURE ]</tspan></text>
+  <!-- Username Pill Badge -->
+  <g transform="translate(1080, 11)">
+    <rect width="88" height="20" rx="10" fill="url(#pill-grad-light)"/>
+    <text x="44" y="14" text-anchor="middle" class="pill-text-light">@FelipeMzero</text>
+  </g>
+
+  <!-- LEFT FRAME: VISUAL.MAP -->
+  <g transform="translate(45, 65)">
+    <!-- Outer Frame -->
+    <rect width="180" height="210" rx="10" fill="#F1F5F9" stroke="#0891B2" stroke-width="2"/>
+    <!-- Label -->
+    <rect x="15" y="10" width="90" height="18" rx="4" fill="#E2E8F0"/>
+    <text x="60" y="23" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#0891B2">VISUAL.MAP</text>
+    <!-- Portrait/Matrix Dither Canvas -->
+    <rect x="15" y="38" width="150" height="155" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.5"/>
+    <text x="90" y="125" text-anchor="middle" font-family="'Fira Code', monospace" font-size="46" fill="#7C3AED">&lt;/&gt;</text>
+    <text x="90" y="160" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10" fill="#059669">[DITHER_ACTIVE]</text>
+  </g>
+
+  <!-- RIGHT SECTION: SYSTEM.INFO READOUT WITH DOTTED LEADERS -->
+  <g transform="translate(260, 85)">
+    <!-- Name and Role -->
+    <text x="0" y="15" class="title-name-light">FELIPE MZERO</text>
+    <text x="0" y="40" class="sub-role-light">&gt; Técnico em Informática | Backend &amp; SysAdmin</text>
+
+    <!-- Dotted Readout Leaders -->
+    <g transform="translate(0, 75)">
+      <!-- Line 1 -->
+      <text x="0" y="0" class="readout-label-light">SYSTEM.INFO</text>
+      <text x="110" y="0" class="readout-label-light" fill="#CBD5E1">....................................................................</text>
+      <text x="680" y="0" text-anchor="end" class="readout-val-light">Active Directory • Windows Server • Python • Linux • AOSP</text>
+
+      <!-- Line 2 -->
+      <text x="0" y="30" class="readout-label-light">LOCATION</text>
+      <text x="110" y="30" class="readout-label-light" fill="#CBD5E1">....................................................................</text>
+      <text x="680" y="30" text-anchor="end" class="readout-val-light">Hospital Menino Jesus — Oriximiná, PA</text>
+
+      <!-- Line 3 -->
+      <text x="0" y="60" class="readout-label-light">STATUS</text>
+      <text x="110" y="60" class="readout-label-light" fill="#CBD5E1">....................................................................</text>
+      <text x="680" y="60" text-anchor="end" class="readout-val-light accent-text-light">[ Building + Learning + Automating ]</text>
     </g>
   </g>
 </svg>

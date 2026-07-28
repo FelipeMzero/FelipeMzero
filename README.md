@@ -1,10 +1,10 @@
-<!-- ===== THEME-AWARE HERO BANNER (CYBERPUNK HUD) ===== -->
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
 <!-- GitHub mostra automaticamente dark.svg no modo escuro e light.svg no modo claro -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg?v=2">
-  <img alt="Felipe Mzero Cyberpunk Banner" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg?v=2">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg?v=3">
+  <img alt="Felipe Mzero Banner" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/light.svg?v=3">
 </picture>
 
 <br/><br/>
@@ -41,9 +41,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake-dark.svg?v=2" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake.svg?v=2" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake.svg?v=2" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake.svg?v=3" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/output/github-contribution-grid-snake.svg?v=3" />
 </picture>
 
 </div>
@@ -55,9 +55,9 @@
 <!-- ===== ABOUT ME CARD (OUTFIT FONT & THEME-AWARE) ===== -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-dark.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg?v=2">
-    <img alt="Sobre Mim - Felipe Mzero" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg?v=2" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg?v=3">
+    <img alt="Sobre Mim - Felipe Mzero" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg?v=3" width="100%">
   </picture>
 </div>
 
@@ -99,7 +99,7 @@
 
 <a href="https://www.linkedin.com/in/felipe-monteiro-pican%C3%A7o-58a028170/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTIgMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1 AzLjM3LTEuODUgMy42MDEgMCA4LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNhMtMi4wNhMtMi4wNhMgMS4xNDAgMCAyLjA2NC45MjUgMi4wNjQgMi4wYzMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY4IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVVOWgzLjU2NHYxMS40NTZ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0 IDEuNzcxIDI4aDIwLjQ1MUNNMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTIgMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1 AzLjM3LTEuODUgMy42MDEgMCA4LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNhMtMi4wNhMtMi4wNhMgMS4xNDAgMCAyLjA2NC45MjUgMi4wNjQgMi4wYzMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY4IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVVOWgzLjU2NHYxMS40NTZ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI4aDIwLjQ1MUNNMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" />
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </picture>
 </a>
