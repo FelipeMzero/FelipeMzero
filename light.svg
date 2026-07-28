@@ -1,5 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 280" width="100%" height="100%">
   <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;display=swap');
+      .title-text-light { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 34px; fill: url(#accent-grad-light); }
+      .sub-text-light { font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 17px; fill: #0F172A; }
+      .info-text-light { font-family: 'Outfit', sans-serif; font-weight: 400; font-size: 14px; fill: #475569; }
+      .bar-text-light { font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 600; fill: #475569; }
+    </style>
     <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="100%" stop-color="#F8FAFC"/>
@@ -24,31 +31,25 @@
   <circle cx="65" cy="20" r="6" fill="#10B981"/>
   
   <!-- Title -->
-  <text x="590" y="24" text-anchor="middle" font-family="'Fira Code', monospace, sans-serif" font-size="13" font-weight="600" fill="#475569">felipe@dev:~ (profile.sh --live)</text>
+  <text x="590" y="24" text-anchor="middle" class="bar-text-light">felipe@dev:~ (profile.sh --live)</text>
   
   <!-- LIVE badge -->
   <rect x="1080" y="10" width="70" height="20" rx="10" fill="#EF4444" opacity="0.15"/>
   <circle cx="1095" cy="20" r="4" fill="#EF4444"/>
-  <text x="1122" y="24" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#DC2626">LIVE</text>
+  <text x="1122" y="24" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#DC2626">LIVE</text>
   
   <!-- Main Content Area -->
-  <!-- Left Column - Avatar / Code Icon -->
   <g transform="translate(60, 70)">
     <rect width="140" height="140" rx="16" fill="#F1F5F9" stroke="url(#accent-grad-light)" stroke-width="2"/>
-    <text x="70" y="85" text-anchor="middle" font-family="'Fira Code', monospace" font-size="48" fill="#0891B2">&lt;/&gt;</text>
+    <text x="70" y="85" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="44" font-weight="800" fill="#0891B2">&lt;/&gt;</text>
   </g>
   
-  <!-- Right Column - Information -->
   <g transform="translate(240, 90)">
-    <!-- Name -->
-    <text x="0" y="20" font-family="sans-serif" font-size="32" font-weight="800" fill="url(#accent-grad-light)">FELIPE MZERO</text>
+    <text x="0" y="20" class="title-text-light">FELIPE MZERO</text>
+    <text x="0" y="48" class="sub-text-light">Técnico em Informática | Backend &amp; SysAdmin</text>
     
-    <!-- Subtitle / Role -->
-    <text x="0" y="50" font-family="'Fira Code', monospace" font-size="16" fill="#0F172A">Técnico em Informática | Backend &amp; SysAdmin</text>
-    
-    <!-- Info Dotted Readouts -->
-    <text x="0" y="85" font-family="'Fira Code', monospace" font-size="13" fill="#475569">SYSTEM.INFO ...... Active Directory • Python • Linux • AOSP • GSC Modding</text>
-    <text x="0" y="110" font-family="'Fira Code', monospace" font-size="13" fill="#475569">LOCATION ......... Hospital Menino Jesus — Oriximiná, PA</text>
-    <text x="0" y="135" font-family="'Fira Code', monospace" font-size="13" fill="#059669">STATUS ........... [Building + Learning + Automating]</text>
+    <text x="0" y="85" class="info-text-light">SYSTEM.INFO ...... Active Directory • Windows Server • Python • Linux • AOSP</text>
+    <text x="0" y="110" class="info-text-light">LOCATION ......... Hospital Menino Jesus — Oriximiná, PA</text>
+    <text x="0" y="135" class="info-text-light" fill="#059669">STATUS ........... [Building + Learning + Automating]</text>
   </g>
 </svg>

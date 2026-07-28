@@ -1,13 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 260" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;display=swap');
+      .header-title-light { font-family: 'Outfit', sans-serif; font-size: 22px; font-weight: 700; fill: #0891B2; }
+      .desc-text-light { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 400; fill: #475569; }
+      .bullet-text-light { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 400; fill: #0F172A; }
+    </style>
+  </defs>
   <rect width="1180" height="260" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
   <g transform="translate(40, 45)">
-    <text x="0" y="0" font-family="'Fira Code', monospace, sans-serif" font-size="22" font-weight="700" fill="#0891B2">🚀 Sobre Mim</text>
-    <text x="0" y="32" font-family="sans-serif" font-size="14" fill="#475569">Profissional de TI multifuncional, transitando entre a infraestrutura crítica de sistemas hospitalares e o desenvolvimento de software moderno.</text>
-    <text x="0" y="52" font-family="sans-serif" font-size="14" fill="#475569">Especialista em unir automação, suporte técnico e engenharia de backend para criar soluções eficientes e escaláveis.</text>
+    <text x="0" y="0" class="header-title-light">🚀 Sobre Mim</text>
+    <text x="0" y="32" class="desc-text-light">Profissional de TI multifuncional, transitando entre a infraestrutura crítica de sistemas hospitalares e o desenvolvimento de software moderno.</text>
+    <text x="0" y="52" class="desc-text-light">Especialista em unir automação, suporte técnico e engenharia de backend para criar soluções eficientes e escaláveis.</text>
     
-    <text x="0" y="90" font-family="sans-serif" font-size="14" fill="#0F172A">🚀 <tspan font-weight="bold" fill="#0891B2">Foco Atual:</tspan> Automação de infraestrutura via Python (Active Directory / Windows Server) e otimização de fluxos hospitalares.</text>
-    <text x="0" y="120" font-family="sans-serif" font-size="14" fill="#0F172A">📚 <tspan font-weight="bold" fill="#7C3AED">Aprendizado Contínuo:</tspan> Explorando as profundezas do AOSP (Android Open Source Project) e customização de ROMs.</text>
-    <text x="0" y="150" font-family="sans-serif" font-size="14" fill="#0F172A">🎮 <tspan font-weight="bold" fill="#059669">Lado Criativo:</tspan> Desenvolvedor de Mods e Scripts GSC para Call of Duty: Black Ops 2 (Plutonium).</text>
-    <text x="0" y="180" font-family="sans-serif" font-size="14" fill="#0F172A">💡 <tspan font-weight="bold" fill="#D97706">Interesses:</tspan> Data Visualization, Telecomunicações e Arquitetura de Redes.</text>
+    <text x="0" y="90" class="bullet-text-light">🚀 <tspan font-weight="700" fill="#0891B2">Foco Atual:</tspan> Automação de infraestrutura via Python (Active Directory &amp; Windows Server) e otimização hospitalar.</text>
+    <text x="0" y="120" class="bullet-text-light">📚 <tspan font-weight="700" fill="#7C3AED">Aprendizado Contínuo:</tspan> Explorando as profundezas do AOSP (Android Open Source Project) e customização de ROMs.</text>
+    <text x="0" y="150" class="bullet-text-light">🎮 <tspan font-weight="700" fill="#059669">Lado Criativo:</tspan> Desenvolvedor de Mods e Scripts GSC para Call of Duty: Black Ops 2 (Plutonium).</text>
+    <text x="0" y="180" class="bullet-text-light">💡 <tspan font-weight="700" fill="#D97706">Interesses:</tspan> Data Visualization, Telecomunicações e Arquitetura de Redes.</text>
   </g>
 </svg>
