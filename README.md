@@ -1,5 +1,5 @@
 <!-- ===== THEME-AWARE HERO BANNER ===== -->
-<!-- GitHub mostra automaticamente dark.svg no modo escuro e light.svg no modo claro -->
+<!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/dark.svg">
@@ -21,6 +21,8 @@
   <b>Técnico em Informática | Hospital Menino Jesus (Oriximiná, PA)</b><br>
   <i>Especialista em unir Infraestrutura, Automação e Desenvolvimento.</i>
 </div>
+
+<br/>
 
 <!-- ===== GITHUB STATS ===== -->
 
@@ -58,12 +60,52 @@
 
 </div>
 
+<!-- ===== END SNAKE ===== -->
+
+<br/>
+
+<!-- ===== ABOUT ME & TECH STACK ===== -->
+<div align="center">
+
+### 🚀 Sobre Mim
+
+Profissional de TI multifuncional, transitando entre a infraestrutura crítica de sistemas hospitalares e o desenvolvimento de software moderno. Especialista em unir automação, suporte técnico e engenharia de backend para criar soluções eficientes e escaláveis.
+
+- 🚀 **Foco Atual:** Automação de infraestrutura via Python (Active Directory) e otimização de fluxos de trabalho em ambiente hospitalar.
+- 📚 **Aprendizado Contínuo:** Explorando as profundezas do AOSP (Android Open Source Project) e a arte da customização de ROMs.
+- 🎮 **Lado Criativo:** Desenvolvedor de Mods e Scripts GSC para Call of Duty: Black Ops 2 (Plutonium).
+- 💡 **Interesses:** Data Visualization, Telecomunicações e Arquitetura de Redes.
+
+<br/>
+
+### 💻 Arsenal Tecnológico
+
+**🌐 Frontend**  
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react" />
+
+<br/>
+
+**⚙️ Backend**  
+<img src="https://skillicons.dev/icons?i=python,java,kotlin,php,nodejs,flask" />
+
+<br/>
+
+**🛠️ Infra & Tools**  
+<img src="https://skillicons.dev/icons?i=bash,linux,windows,mysql,docker,git,arduino" />
+
+<br/>
+
+**🎨 Design**  
+<img src="https://skillicons.dev/icons?i=ps,ai,pr" />
+
+</div>
+
 <!-- ===== SOCIAL BADGES ===== -->
 <br/>
 <div align="center">
 
 <a href="https://www.linkedin.com/in/felipe-monteiro-pican%C3%A7o-58a028170/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTIgMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1 AzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNhMtMi4wNhMtMi4wNjMgMS4xNDAgMCAyLjA2NC45MjUgMi4wNjQgMi4wYzMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVVOWgzLjU2NHYxMS40NTZ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUNNMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTIgMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1 AzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNhMtMi4wNhMtMi4wNhMgMS4xNDAgMCAyLjA2NC45MjUgMi4wNjQgMi4wYzMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY4IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVVOWgzLjU2NHYxMS40NTZ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUNNMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" alt="LinkedIn" />
 </a>
 &nbsp;&nbsp;
 <a href="https://instagram.com/felipemzero">
@@ -80,33 +122,4 @@
 
 </div>
 
----
-
-### 🚀 Sobre Mim
-
-Profissional de TI multifuncional, transitando entre a infraestrutura crítica de sistemas hospitalares e o desenvolvimento de software moderno. Especialista em unir automação, suporte técnico e engenharia de backend para criar soluções eficientes e escaláveis.
-
-- 🚀 **Foco Atual:** Automação de infraestrutura via Python (Active Directory) e otimização de fluxos de trabalho em ambiente hospitalar.
-- 📚 **Aprendizado Contínuo:** Explorando as profundezas do AOSP (Android Open Source Project) e a arte da customização de ROMs.
-- 🎮 **Lado Criativo:** Desenvolvedor de Mods e Scripts GSC para Call of Duty: Black Ops 2 (Plutonium).
-- 💡 **Interesses:** Data Visualization, Telecomunicações e Arquitetura de Redes.
-
----
-
-### 💻 Arsenal Tecnológico
-
-<div align="center">
-
-**🌐 Frontend**  
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react" />
-
-**⚙️ Backend**  
-<img src="https://skillicons.dev/icons?i=python,java,kotlin,php,nodejs,flask" />
-
-**🛠️ Infra & Tools**  
-<img src="https://skillicons.dev/icons?i=bash,linux,windows,mysql,docker,git,arduino" />
-
-**🎨 Design**  
-<img src="https://skillicons.dev/icons?i=ps,ai,pr" />
-
-</div>
+<!-- ===== END SOCIAL BADGES ===== -->
