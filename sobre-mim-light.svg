@@ -1,30 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 270" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 260" width="100%" height="100%">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Outfit:wght@600;700;800&amp;display=swap');
-      .mc-ach-title-light { font-family: 'Press Start 2P', monospace; font-size: 15px; fill: #D97706; text-shadow: 1px 1px 0px #FCD34D; }
-      .mc-ach-header-light { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 400; fill: #475569; }
-      .mc-quest-light { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 400; fill: #0F172A; }
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;display=swap');
+      .header-title-light { font-family: 'Outfit', sans-serif; font-size: 22px; font-weight: 700; fill: #0891B2; }
+      .desc-text-light { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 400; fill: #475569; }
+      .bullet-text-light { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 400; fill: #0F172A; }
     </style>
   </defs>
-  
-  <!-- Minecraft Inventory Card Frame -->
-  <rect width="1180" height="270" rx="6" fill="#7EC0EE" stroke="#5B8731" stroke-width="4"/>
-  <rect x="8" y="8" width="1164" height="254" rx="4" fill="#FFFFFF" stroke="#C6C6C6" stroke-width="3"/>
-
-  <!-- Achievement Popup Box Header -->
-  <g transform="translate(25, 25)">
-    <rect width="450" height="42" rx="4" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
-    <text x="15" y="27" class="mc-ach-title-light">🏆 Advancement Made!</text>
-  </g>
-
-  <g transform="translate(35, 95)">
-    <text x="0" y="0" class="mc-ach-header-light">Profissional de TI multifuncional, transitando entre a infraestrutura crítica hospitalar e desenvolvimento moderno.</text>
-    <text x="0" y="22" class="mc-ach-header-light">Especialista em unir automação de sistemas, suporte técnico e engenharia de backend.</text>
+  <rect width="1180" height="260" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <g transform="translate(40, 45)">
+    <text x="0" y="0" class="header-title-light">🚀 Sobre Mim</text>
+    <text x="0" y="32" class="desc-text-light">Profissional de TI multifuncional, transitando entre a infraestrutura crítica de sistemas hospitalares e o desenvolvimento de software moderno.</text>
+    <text x="0" y="52" class="desc-text-light">Especialista em unir automação, suporte técnico e engenharia de backend para criar soluções eficientes e escaláveis.</text>
     
-    <text x="0" y="60" class="mc-quest-light">🗡️ <tspan font-weight="700" fill="#0891B2">Foco Atual:</tspan> Automação de infraestrutura via Python (Active Directory &amp; Windows Server) e otimização hospitalar.</text>
-    <text x="0" y="90" class="mc-quest-light">📘 <tspan font-weight="700" fill="#7C3AED">Aprendizado Contínuo:</tspan> Explorando as profundezas do AOSP (Android Open Source Project) e customização de ROMs.</text>
-    <text x="0" y="120" class="mc-quest-light">⚡ <tspan font-weight="700" fill="#059669">Lado Criativo:</tspan> Desenvolvedor de Mods e Scripts GSC para Call of Duty: Black Ops 2 (Plutonium).</text>
-    <text x="0" y="150" class="mc-quest-light">🗺️ <tspan font-weight="700" fill="#D97706">Interesses:</tspan> Data Visualization, Telecomunicações e Arquitetura de Redes.</text>
+    <text x="0" y="90" class="bullet-text-light">🚀 <tspan font-weight="700" fill="#0891B2">Foco Atual:</tspan> Automação de infraestrutura via Python (Active Directory &amp; Windows Server) e otimização hospitalar.</text>
+    <text x="0" y="120" class="bullet-text-light">📚 <tspan font-weight="700" fill="#7C3AED">Aprendizado Contínuo:</tspan> Explorando as profundezas do AOSP (Android Open Source Project) e customização de ROMs.</text>
+    <text x="0" y="150" class="bullet-text-light">🎮 <tspan font-weight="700" fill="#059669">Lado Criativo:</tspan> Desenvolvedor de Mods e Scripts GSC para Call of Duty: Black Ops 2 (Plutonium).</text>
+    <text x="0" y="180" class="bullet-text-light">💡 <tspan font-weight="700" fill="#D97706">Interesses:</tspan> Data Visualization, Telecomunicações e Arquitetura de Redes.</text>
   </g>
 </svg>
