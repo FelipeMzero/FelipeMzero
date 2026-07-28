@@ -1,5 +1,5 @@
 <!-- ===== THEME-AWARE HERO BANNER ===== -->
-<!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
+<!-- GitHub automaticamente mostra dark.svg no modo escuro e light.svg no modo claro -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/dark.svg">
@@ -24,7 +24,7 @@
 
 <br/>
 
-<!-- ===== GITHUB STATS ===== -->
+<!-- ===== GITHUB STATS (THEME-AWARE) ===== -->
 
 <div align="center">
 
@@ -64,60 +64,77 @@
 
 <br/>
 
-<!-- ===== ABOUT ME & TECH STACK ===== -->
+<!-- ===== ABOUT ME CARD (THEME-AWARE) ===== -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg">
+    <img alt="Sobre Mim - Felipe Mzero" src="https://raw.githubusercontent.com/FelipeMzero/FelipeMzero/main/sobre-mim-light.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+
+<!-- ===== ARSENAL TECNOLÓGICO ===== -->
 <div align="center">
 
-### 🚀 Sobre Mim
+<h3>💻 Arsenal Tecnológico</h3>
 
-Profissional de TI multifuncional, transitando entre a infraestrutura crítica de sistemas hospitalares e o desenvolvimento de software moderno. Especialista em unir automação, suporte técnico e engenharia de backend para criar soluções eficientes e escaláveis.
-
-- 🚀 **Foco Atual:** Automação de infraestrutura via Python (Active Directory) e otimização de fluxos de trabalho em ambiente hospitalar.
-- 📚 **Aprendizado Contínuo:** Explorando as profundezas do AOSP (Android Open Source Project) e a arte da customização de ROMs.
-- 🎮 **Lado Criativo:** Desenvolvedor de Mods e Scripts GSC para Call of Duty: Black Ops 2 (Plutonium).
-- 💡 **Interesses:** Data Visualization, Telecomunicações e Arquitetura de Redes.
-
-<br/>
-
-### 💻 Arsenal Tecnológico
-
-**🌐 Frontend**  
+<p><b>🌐 Frontend</b></p>
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react" />
 
-<br/>
+<br/><br/>
 
-**⚙️ Backend**  
+<p><b>⚙️ Backend</b></p>
 <img src="https://skillicons.dev/icons?i=python,java,kotlin,php,nodejs,flask" />
 
-<br/>
+<br/><br/>
 
-**🛠️ Infra & Tools**  
+<p><b>🛠️ Infra &amp; Tools</b></p>
+<p>
+  <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Active Directory"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Server"/>
+</p>
 <img src="https://skillicons.dev/icons?i=bash,linux,windows,mysql,docker,git,arduino" />
 
-<br/>
+<br/><br/>
 
-**🎨 Design**  
+<p><b>🎨 Design</b></p>
 <img src="https://skillicons.dev/icons?i=ps,ai,pr" />
 
 </div>
 
-<!-- ===== SOCIAL BADGES ===== -->
-<br/>
+<!-- ===== SOCIAL BADGES (THEME-AWARE) ===== -->
+<br/><br/>
 <div align="center">
 
 <a href="https://www.linkedin.com/in/felipe-monteiro-pican%C3%A7o-58a028170/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTIgMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1 AzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNhMtMi4wNhMtMi4wNhMgMS4xNDAgMCAyLjA2NC45MjUgMi4wNjQgMi4wYzMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY4IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVVOWgzLjU2NHYxMS40NTZ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUNNMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" alt="LinkedIn" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTIgMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1 AzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNhMtMi4wNhMtMi4wNhMgMS4xNDAgMCAyLjA2NC45MjUgMi4wNjQgMi4wYzMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY4IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVVOWgzLjU2NHYxMS40NTZ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUNNMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </picture>
 </a>
 &nbsp;&nbsp;
 <a href="https://instagram.com/felipemzero">
-  <img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA&labelColor=0A101F" alt="Instagram" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA&labelColor=0A101F" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </picture>
 </a>
 &nbsp;&nbsp;
 <a href="https://www.facebook.com/profile.php?id=100081518550400">
-  <img src="https://img.shields.io/badge/Facebook-0A101F?style=for-the-badge&logo=facebook&logoColor=22D3EE&labelColor=0A101F" alt="Facebook" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Facebook-0A101F?style=for-the-badge&logo=facebook&logoColor=22D3EE&labelColor=0A101F" />
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </picture>
 </a>
 &nbsp;&nbsp;
 <a href="mailto:felipe@exemplo.com">
-  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </picture>
 </a>
 
 </div>
