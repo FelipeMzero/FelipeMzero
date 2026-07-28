@@ -1,55 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 280" width="100%" height="100%">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;display=swap');
-      .title-text-light { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 34px; fill: url(#accent-grad-light); }
-      .sub-text-light { font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 17px; fill: #0F172A; }
-      .info-text-light { font-family: 'Outfit', sans-serif; font-weight: 400; font-size: 14px; fill: #475569; }
-      .bar-text-light { font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 600; fill: #475569; }
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Outfit:wght@700;800;900&amp;display=swap');
+      .cyber-title-light { font-family: 'Outfit', sans-serif; font-weight: 900; font-size: 38px; fill: #0088CC; }
+      .cyber-sub-light { font-family: 'Share Tech Mono', monospace; font-size: 16px; font-weight: 700; fill: #D80056; letter-spacing: 1.5px; }
+      .cyber-info-light { font-family: 'Share Tech Mono', monospace; font-size: 13.5px; fill: #475569; }
+      .cyber-cyan-light { fill: #0088CC; font-weight: bold; }
+      .cyber-yellow-light { fill: #D97706; font-weight: bold; }
+      .cyber-pink-light { fill: #D80056; font-weight: bold; }
     </style>
-    <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F8FAFC"/>
-    </linearGradient>
-    <linearGradient id="accent-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0891B2"/>
-      <stop offset="50%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#059669"/>
-    </linearGradient>
-  </defs>
-  
-  <!-- Background Card -->
-  <rect width="1180" height="280" rx="12" fill="url(#bg-light)" stroke="#E2E8F0" stroke-width="2"/>
-  
-  <!-- Terminal Window Bar -->
-  <rect width="1180" height="40" rx="12" fill="#F1F5F9"/>
-  <rect y="28" width="1180" height="12" fill="#F1F5F9"/>
-  
-  <!-- Window Controls -->
-  <circle cx="25" cy="20" r="6" fill="#EF4444"/>
-  <circle cx="45" cy="20" r="6" fill="#F59E0B"/>
-  <circle cx="65" cy="20" r="6" fill="#10B981"/>
-  
-  <!-- Title -->
-  <text x="590" y="24" text-anchor="middle" class="bar-text-light">felipe@dev:~ (profile.sh --live)</text>
-  
-  <!-- LIVE badge -->
-  <rect x="1080" y="10" width="70" height="20" rx="10" fill="#EF4444" opacity="0.15"/>
-  <circle cx="1095" cy="20" r="4" fill="#EF4444"/>
-  <text x="1122" y="24" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#DC2626">LIVE</text>
-  
-  <!-- Main Content Area -->
-  <g transform="translate(60, 70)">
-    <rect width="140" height="140" rx="16" fill="#F1F5F9" stroke="url(#accent-grad-light)" stroke-width="2"/>
-    <text x="70" y="85" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="44" font-weight="800" fill="#0891B2">&lt;/&gt;</text>
-  </g>
-  
-  <g transform="translate(240, 90)">
-    <text x="0" y="20" class="title-text-light">FELIPE MZERO</text>
-    <text x="0" y="48" class="sub-text-light">Técnico em Informática | Backend &amp; SysAdmin</text>
     
-    <text x="0" y="85" class="info-text-light">SYSTEM.INFO ...... Active Directory • Windows Server • Python • Linux • AOSP</text>
-    <text x="0" y="110" class="info-text-light">LOCATION ......... Hospital Menino Jesus — Oriximiná, PA</text>
-    <text x="0" y="135" class="info-text-light" fill="#059669">STATUS ........... [Building + Learning + Automating]</text>
+    <linearGradient id="cyber-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+
+    <pattern id="grid-light" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#E2E8F0" stroke-width="0.8" opacity="0.8"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="1180" height="280" rx="10" fill="url(#cyber-bg-light)" stroke="#0088CC" stroke-width="2"/>
+  <rect width="1180" height="280" fill="url(#grid-light)"/>
+
+  <!-- Cyberpunk Top HUD Bar -->
+  <path d="M 0 0 L 1180 0 L 1180 36 L 1150 36 L 1140 46 L 40 46 L 30 36 L 0 36 Z" fill="#E2E8F0" stroke="#0088CC" stroke-width="1.5"/>
+  <text x="50" y="26" font-family="'Share Tech Mono', monospace" font-size="13" fill="#0088CC">// CYBER_NET v2.077 :: FELIPE.EXE</text>
+  <text x="1130" y="26" text-anchor="end" font-family="'Share Tech Mono', monospace" font-size="13" fill="#D80056">[ SYSTEM_ACTIVE ]</text>
+  
+  <!-- Cyber HUD Decorative Lines -->
+  <line x1="0" y1="270" x2="1180" y2="270" stroke="#D80056" stroke-width="2"/>
+  <rect x="1100" y="265" width="40" height="10" fill="#D97706"/>
+
+  <!-- Left Column - Cyber Avatar HUD Frame -->
+  <g transform="translate(60, 75)">
+    <polygon points="20,0 120,0 140,20 140,120 120,140 20,140 0,120 0,20" fill="#F1F5F9" stroke="#0088CC" stroke-width="2"/>
+    <polygon points="25,5 115,5 135,25 135,115 115,135 25,135 5,115 5,25" fill="#FFFFFF" stroke="#D80056" stroke-width="1" opacity="0.7"/>
+    <text x="70" y="82" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="42" font-weight="900" fill="#0088CC">&lt;/&gt;</text>
+    <text x="70" y="112" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#D97706">CYBER_ID#99</text>
+  </g>
+
+  <!-- Right Column - Information Readout -->
+  <g transform="translate(235, 92)">
+    <text x="0" y="22" class="cyber-title-light">FELIPE MZERO</text>
+    <text x="0" y="50" class="cyber-sub-light">&gt; SYSADMIN // BACKEND DEVELOPER // AOSP ENTHUSIAST</text>
+    
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" class="cyber-info-light">[<tspan class="cyber-cyan-light">+</tspan>] CORE_MODULES ... <tspan class="cyber-yellow-light">Active Directory</tspan> // <tspan class="cyber-yellow-light">Windows Server</tspan> // Python // Linux // AOSP</text>
+      <text x="0" y="24" class="cyber-info-light">[<tspan class="cyber-cyan-light">+</tspan>] LOCATION ....... HOSPITAL MENINO JESUS // ORIXIMINA, PA</text>
+      <text x="0" y="48" class="cyber-info-light">[<tspan class="cyber-cyan-light">+</tspan>] STATUS ......... <tspan class="cyber-pink-light">[ ONLINE // AUTOMATING INFRASTRUCTURE ]</tspan></text>
+    </g>
   </g>
 </svg>
