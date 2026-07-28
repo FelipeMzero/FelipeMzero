@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A101F"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Card -->
+  <rect width="1180" height="280" rx="12" fill="url(#bg-dark)" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Terminal Window Bar -->
+  <rect width="1180" height="40" rx="12" fill="#0F172A"/>
+  <rect y="28" width="1180" height="12" fill="#0F172A"/>
+  
+  <!-- Window Controls -->
+  <circle cx="25" cy="20" r="6" fill="#EF4444"/>
+  <circle cx="45" cy="20" r="6" fill="#F59E0B"/>
+  <circle cx="65" cy="20" r="6" fill="#10B981"/>
+  
+  <!-- Title -->
+  <text x="590" y="24" text-anchor="middle" font-family="'Fira Code', monospace, sans-serif" font-size="13" font-weight="600" fill="#94A3B8">felipe@dev:~ (profile.sh --live)</text>
+  
+  <!-- LIVE badge -->
+  <rect x="1080" y="10" width="70" height="20" rx="10" fill="#EF4444" opacity="0.2"/>
+  <circle cx="1095" cy="20" r="4" fill="#EF4444"/>
+  <text x="1122" y="24" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#EF4444">LIVE</text>
+  
+  <!-- Main Content Area -->
+  <!-- Left Column - Avatar / Code Icon -->
+  <g transform="translate(60, 70)">
+    <rect width="140" height="140" rx="16" fill="#1E293B" stroke="url(#accent-grad)" stroke-width="2"/>
+    <text x="70" y="85" text-anchor="middle" font-family="'Fira Code', monospace" font-size="48" fill="#22D3EE">&lt;/&gt;</text>
+  </g>
+  
+  <!-- Right Column - Information -->
+  <g transform="translate(240, 90)">
+    <!-- Name -->
+    <text x="0" y="20" font-family="sans-serif" font-size="32" font-weight="800" fill="url(#accent-grad)">FELIPE MZERO</text>
+    
+    <!-- Subtitle / Role -->
+    <text x="0" y="50" font-family="'Fira Code', monospace" font-size="16" fill="#F8FAFC">Técnico em Informática | Backend &amp; SysAdmin</text>
+    
+    <!-- Info Dotted Readouts -->
+    <text x="0" y="85" font-family="'Fira Code', monospace" font-size="13" fill="#94A3B8">SYSTEM.INFO ...... Active Directory • Python • Linux • AOSP • GSC Modding</text>
+    <text x="0" y="110" font-family="'Fira Code', monospace" font-size="13" fill="#94A3B8">LOCATION ......... Hospital Menino Jesus — Oriximiná, PA</text>
+    <text x="0" y="135" font-family="'Fira Code', monospace" font-size="13" fill="#10B981">STATUS ........... [Building + Learning + Automating]</text>
+  </g>
+</svg>
